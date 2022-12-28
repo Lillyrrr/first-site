@@ -1,0 +1,47 @@
+/* float left */
+.images{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.images br, hr {
+	float: left;
+	width: 100%;
+	clear: both;
+}
+
+.images img, .images div {
+	width: 200px;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+
+}
+
+/* flexbox */
+.images.flexbox {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.images.flexbox img, .images.flexbox div {
+	margin-left: 0;
+	
+}
+/* grid*/ 
+.images.grid{
+place-items: center;
+display: grid;
+grid-template-columns: 1fr 2fr 1fr 		;
+
+}
+
+.images.grid div {
+	text-align: center;
+	width: auto;
+	}
+
+
+

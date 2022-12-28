@@ -1,0 +1,26 @@
+td, tr {
+	text-align: center;
+	image-orientation: center;
+}
+
+th:nth-child(1) {
+	background-color: palegreen;
+	font-weight: bold;
+	font-size: 30px;
+}
+th:nth-child(2) {
+	background-color: royalblue;
+	font-weight: bold;
+	font-size: 30px;
+}
+th:nth-child(3) {
+	background-color: #C39BD3;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+
+.images{
+	width: 200px;
+	height: 200px;
+	}
